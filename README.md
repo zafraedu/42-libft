@@ -33,23 +33,17 @@ Tendrás que programar una [librería](./inc/libft.h) en C. Tu librería tendrá
 #### Clonar el repositorio
 
 ```bash
-git clone https://github.com/zafraedu/42.git
-```
-
-> Este no es el repositorio de libft y si de todos los proyectos de 42
-
-#### Entrar en el repositorio del proyecto y ejecurar `make`
-
-```bash
-cd 42/42-cursus/circle_0/libft
+git clone https://github.com/zafraedu/42-libft.git
+cd 42-libft
 make
 ```
 
 #### Para usar en tu código, incluye el encabezado
 
 ```c
-#include "ruta/libft.h"
+#include "/libft.h" 
 ```
+> Reemplaza `/libft.h` por la ruta exacta donde se encuentra la librería en tu proyecto.
 
 ### Makefile Rules
 
@@ -113,9 +107,8 @@ Implementarás las siguientes funciones:
 | [ft_putendl_fd](./src/ft_putendl_fd.c) | imprime `s` al `fd` con un **salto de linea** al final                                                          |
 | [ft_putnbr_fd](./src/ft_putnbr_fd.c)   | imprime el numero `n` al `fd`                                                                                   |
 
-> MD -> Memoria Dinamica
->
-> fd -> file descriptor
+> MD - Memoria Dinamica
+> fd - file descriptor
 
 ## BONUS
 
